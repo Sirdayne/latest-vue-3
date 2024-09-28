@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "Você está participando da promoção! Basta girar para pegar um Drop",
+			"passive_player": "You took part in the promo.",
+			"left": "Prêmios restantes",
+			"prize_pool": "Prêmio acumulado",
+			"rules_button": "Como jogar",
+			"prizes_button": "Prêmios"
+		},
+		"join": {
+			"button": "Participe gratuitamente",
+			"badge": "Grátis",
+			"loading": "Participando",
+			"join_pro_title": "A taxa é",
+			"join_pro_button": "Pague a taxa e participe",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Prêmio acumulado do Drop",
+			"column_prizes": "Prêmios",
+			"column_left": "Restantes/Início"
+		},
+		"user_wins": {
+			"title": "Você ganhou",
+			"column_date": "Data",
+			"column_time": "Hora",
+			"column_value": "Valor",
+			"column_game": "Jogo"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Data",
+			"column_time": "Hora",
+			"column_prize": "Prêmio"
+		},
+		"rules": {
+			"title": "Regras",
+			"spin": "Apenas um giro para ganhar",
+			"rtp": "Não afeta o RTP do jogo",
+			"bet": "Todas as apostas se qualificam a menos que uma aposta mínima seja definida",
+			"goal": "Quanto maior a aposta, maiores as chances de ganhar o prêmio",
+			"details": {
+				"title": "Todas as regras da Promoção BGaming",
+				"description": "A promoção \"{name}\" está disponível para este jogo e ocorre de {from} a {to} (\"Data limite da Promoção\") ou até que todos os prêmios tenham sido sorteados.",
+				"agreement": "Ao participar de uma promoção (conforme definido abaixo), você concorda em cumprir estes termos e condições.",
+				"summary": {
+					"title": "Promoção \"BGaming Drops\"",
+					"total": "O valor total dos prêmios é {value}.",
+					"max": "O prêmio principal é {value}.",
+					"amount": "O número de prêmios é {value}.",
+					"delay": "Os pagamentos dos prêmios podem ser atrasados em até 72 horas."
+				},
+				"conditions": {
+					"title": "Como participar da promoção \"BGaming Drops\"",
+					"join": "O jogador precisa participar do jogo relacionado à promoção.",
+					"spin": "O jogador deve fazer pelo menos uma rotação.",
+					"bet": "Qualquer aposta feita em qualquer jogo elegível pode resultar em um prêmio aleatório máximo do prêmio acumulado durante o período da promoção.",
+					"player": "O número de prêmios que um jogador pode ganhar é limitado apenas pelo número deles.",
+					"limit": "O número de prêmios que um jogador pode ganhar é limitado apenas pelo prêmio acumulado da campanha.",
+					"free": "A participação na promoção não acarretará custos adicionais."
+				},
+				"prizes": {
+					"title": "Tabela de prêmios da promoção \"BGaming Drops\"",
+					"amount": "Quantidade/Valor"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "Você está participando da promoção!",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Leia as regras do Challenge",
+			"sync_message": "Calculando resultados",
+			"spin_limit": "Limite de\nrotações",
+			"limit_message": "Limite de rotações atingido.\nRotações adicionais não serão contabilizadas",
+			"left": "Giros restantes"
+		},
+		"join": {
+			"title": "Insira seu código de convite para participar do Challenge",
+			"button": "Estou dentro!",
+			"loading": "Entrando",
+			"error": "Insira um código válido"
+		},
+		"playerCode": {
+			"title": "Importante!",
+			"message": "Cada participante possui seu ID de jogador único. Mantenha seu ID de jogador em segurança e apresente-o ao organizador para verificar sua identidade e participação no desafio. Sem esse código, você não poderá reivindicar seu prêmio caso você ganhe!",
+			"button": "Copiar código",
+			"toast": "O código foi copiado"
+		},
+		"rules": {
+			"title": "Regras",
+			"games": "Jogos participantes do Challenge: {value}",
+			"goal": "O multiplicador mais alto ganha",
+			"winner": "Se os jogadores tiverem os mesmos multiplicadores mais altos, ganha quem o conseguir primeiro",
+			"id": "Mudar a moeda mudará seu ID de jogador, e seu progresso no Challenge será registrado separadamente para cada ID de jogador",
+			"bet_eur": "A aposta mínima é {value} EUR",
+			"bet_ext": "A aposta mínima é {value} EUR ({ext})",
+			"bet": "Qualquer nível de aposta é permitido",
+			"spin_denied": "Os recursos que você comprou não serão contabilizados nos resultados do desafio",
+			"spin_feature": "Apenas as características compradas serão contabilizadas no Challenge",
+			"spin": "Qualquer rotação (incluindo compras adicionais) conta no Challenge",
+			"limit_on": "{value} por jogador para conseguir o multiplicador mais alto. Você será notificado quando suas rotações terminarem",
+			"limit": "Sem limite para a quantidade de rotações"
+		},
+		"leaderboard": {
+			"title": "Placar",
+			"title_full": "Tabela de classificação completa",
+			"title_player": "Meu resultado",
+			"column_rank": "#",
+			"column_id": "ID do jogador",
+			"column_result": "Multiplicador",
+			"loading_text": "Carregando dados",
+			"button": "Ver o placar completo",
+			"no_data": "Nenhum jogador participando no momento"
+		},
+		"games": {
+			"title": "Jogos participantes",
+			"more": "E mais {value}"
+		}
+	},
+	"games": {
+		"title": "Jogos",
+		"empty_title": "Não há jogos correspondentes à sua solicitação",
+		"empty_subtitle": "Tente ajustar os filtros e a pesquisa",
+		"search_placeholder": "Buscar jogos"
+	},
+	"profile": {
+		"title": "Fidelidade",
+		"level": "Nível",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Conecte sua conta do Telegram para ganhar pontos de fidelidade e obter recompensas da BGaming em qualquer cassino onde você jogue jogos da BGaming. Você precisa conectar o Telegram para cada moeda que utilizar.",
+		"telegram_button_title": "Vincular Telegram",
+		"telegram_linked": "Telegram conectado",
+		"privileges": {
+			"current_title": "Recompensas atuais",
+			"next_title": "Próximas recompensas",
+			"next_empty": "Novas recompensas serão adicionadas em breve",
+			"type_title": {
+				"extra_points": "{value} Pontos extras",
+				"p2p_challenges": "Desafios JxJ",
+				"big_wins": "Grandes ganhos",
+				"mystery_box": "Caixa misteriosa"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Eventos ativos e planejados",
+			"ended_title": "Eventos encerrados recentemente",
+			"empty": {
+				"title": "Não há eventos ativos ou planejados no momento",
+				"sub_title": "Avisaremos quando houver alguma atividade aqui"
+			}
+		},
+		"error": {
+			"list_title": "Não foi possível carregar os eventos",
+			"details_title": "Não foi possível carregar os detalhes dos eventos",
+			"leaderboard_title": "Não foi possível carregar o placar",
+			"sub_title": "Tente consultar mais tarde"
+		},
+		"event_details": {
+			"empty_title": "Detalhes não disponíveis"
+		},
+		"event_status": {
+			"active": "Ativo",
+			"planned": "Planejado"
+		},
+		"event_timer": {
+			"start_title": "Começa em",
+			"end_title": "Termina em"
+		},
+		"min_bet": "Aposta mínima\nrequerida",
+		"event_finished": "Evento encerrado",
+		"button": {
+			"roll_up": "Fechar",
+			"show_more": "Mostrar mais"
+		}
+	}
+}

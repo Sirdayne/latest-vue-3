@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "Olet mukana promootiossa! Pyöräytä vain saadaksesi Dropin",
+			"passive_player": "You took part in the promo.",
+			"left": "Jäljellä olevat palkinnot",
+			"prize_pool": "Palkintopotti",
+			"rules_button": "Miten pelata",
+			"prizes_button": "Palkinnot"
+		},
+		"join": {
+			"button": "Liity ilmaiseksi",
+			"badge": "Ilmainen",
+			"loading": "Liittyminen",
+			"join_pro_title": "Maksu on",
+			"join_pro_button": "Maksa maksu ja liity",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Drop-palkintopotti",
+			"column_prizes": "Palkinnot",
+			"column_left": "Jäljellä/Alussa"
+		},
+		"user_wins": {
+			"title": "Voitit",
+			"column_date": "Päivämäärä",
+			"column_time": "Aika",
+			"column_value": "Arvo",
+			"column_game": "Peli"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Päivämäärä",
+			"column_time": "Aika",
+			"column_prize": "Palkinto"
+		},
+		"rules": {
+			"title": "Rules",
+			"spin": "Just one spin to win",
+			"rtp": "Doesn’t affect RTP of the game",
+			"bet": "All bets qualify unless a minimum bet is set",
+			"goal": "The higher the bet, the higher the chances of winning the prize",
+			"details": {
+				"title": "Kaikki BGamingin promootiosäännöt",
+				"description": "\"{name}\"-promootio on saatavilla tälle pelille ja se kestää {from} asti {to} saakka (\"Promootion määräaika\") tai kunnes kaikki palkinnot on jaettu.",
+				"agreement": "Osallistumalla promootioon (kuten alla on määritelty) sitoudut noudattamaan näitä ehtoja.",
+				"summary": {
+					"title": "\"BGaming Drops\"-promootio",
+					"total": "Palkintojen kokonaismäärä on {value}.",
+					"max": "Pääpalkinto on {value}.",
+					"amount": "Palkintojen määrä on {value}.",
+					"delay": "Palkintojen maksut voivat viivästyä jopa 72 tuntia."
+				},
+				"conditions": {
+					"title": "Kuinka osallistua \"BGaming Drops\"-promootioon",
+					"join": "Pelaajan on liityttävä promootioon liittyvään peliin.",
+					"spin": "Pelaajan on tehtävä vähintään yksi pyöräytys.",
+					"bet": "Mikä tahansa panos missä tahansa kelvollisessa pelissä voi johtaa yhden satunnaisen palkinnon voittamiseen palkintopotista promootiojakson aikana.",
+					"player": "Yhden pelaajan voittamien palkintojen määrä on rajoitettu vain niiden määrällä.",
+					"limit": "Yhden pelaajan voittamien palkintojen määrä on rajoitettu vain kampanjan palkintopotilla.",
+					"free": "Osallistuminen promootioon ei aiheuta lisäkustannuksia."
+				},
+				"prizes": {
+					"title": "\"BGaming Drops\"-promootion palkintotaulukko",
+					"amount": "Määrä/Summa"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "You are taking part in the promo!",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Lue Challenge säännöt",
+			"sync_message": "Tulosten laskeminen",
+			"spin_limit": "Pyöräytys\nrajoitus",
+			"limit_message": "Pyöräytysrajoitus saavutettu.\nLisäpyöräytyksiä ei lasketa",
+			"left": "Spins left"
+		},
+		"join": {
+			"title": "Syötä kutsukoodisi liittyäksesi Challengeen",
+			"button": "Olen mukana!",
+			"loading": "Liittyminen",
+			"error": "Syötä kelvollinen koodi"
+		},
+		"playerCode": {
+			"title": "Important!",
+			"message": "Each participant is assigned a unique player ID. Please keep your player ID safe and present it to the organizer to verify your identity and participation in the challenge. Without this code, you will not be able to claim your prize if you win!",
+			"button": "Kopioi koodi",
+			"toast": "Code is copied"
+		},
+		"rules": {
+			"title": "Rules",
+			"games": "Challengeen osallistuvat pelit: {value}",
+			"goal": "Suurin kerroin voittaa",
+			"winner": "Jos pelaajilla on samat suurimmat kertoimet, se, joka saavuttaa sen ensin, voittaa",
+			"id": "Valuutan vaihtaminen vaihtaa pelaaja-ID:si ja Challenge-edistymisesi tallennetaan erikseen jokaiselle pelaaja-ID:lle",
+			"bet_eur": "Minimipanos on {value} EUR",
+			"bet_ext": "Minimipanos on {value} EUR ({ext})",
+			"bet": "Kaikki panostasot sallitaan",
+			"spin_denied": "The features you have purchased will not be accounted for in the challenge results",
+			"spin_feature": "Vain ostetut ominaisuudet lasketaan Challengeen",
+			"spin": "Kaikki pyöräytykset (myös lisäostot) lasketaan Challengessa",
+			"limit_on": "{value} per pelaaja saadaksesi suurimman kertoimen. Saat ilmoituksen, kun pyöräytyksesi ovat käytetty",
+			"limit": "Ei rajoitusta pyöräytysten määrälle"
+		},
+		"leaderboard": {
+			"title": "Leaderboard",
+			"title_full": "Koko tulostaulu",
+			"title_player": "My result",
+			"column_rank": "#",
+			"column_id": "Player id",
+			"column_result": "Multiplier",
+			"loading_text": "Loading data",
+			"button": "View full leaderboard",
+			"no_data": "Ei tällä hetkellä Challengeen osallistuvia pelaajia"
+		},
+		"games": {
+			"title": "Osallistuvat pelit",
+			"more": "Ja {value} lisää"
+		}
+	},
+	"games": {
+		"title": "Pelit",
+		"empty_title": "Hakusi ei vastaa yhtään peliä",
+		"empty_subtitle": "Yritä säätää suodattimia ja hakuehtoja",
+		"search_placeholder": "Etsi pelejä"
+	},
+	"profile": {
+		"title": "Lojaalisuus",
+		"level": "Taso",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Yhdistä Telegram-tilisi ansaitaksesi uskollisuuspisteitä ja saadaksesi palkintoja BGamingilta missä tahansa kasinossa, jossa pelaat BGaming-pelejä. Sinun täytyy yhdistää Telegram jokaiselle valuutalle, jota käytät pelatessasi.",
+		"telegram_button_title": "Liitä Telegram",
+		"telegram_linked": "Telegram yhdistetty",
+		"privileges": {
+			"current_title": "Nykyiset palkinnot",
+			"next_title": "Seuraavat palkinnot",
+			"next_empty": "Uusia palkintoja lisätään pian",
+			"type_title": {
+				"extra_points": "{value} Lisäpisteet",
+				"p2p_challenges": "P2P Challenges",
+				"big_wins": "Suuret voitot",
+				"mystery_box": "Mysteerilaatikko"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Aktiiviset ja suunnitellut tapahtumat",
+			"ended_title": "Äskettäin päättyneet tapahtumat",
+			"empty": {
+				"title": "Ei tällä hetkellä aktiivisia tai suunniteltuja tapahtumia",
+				"sub_title": "Ilmoitamme sinulle, kun täällä on jotain toimintaa"
+			}
+		},
+		"error": {
+			"list_title": "Can't load events",
+			"details_title": "Can't load event details",
+			"leaderboard_title": "Can't load leaderboard",
+			"sub_title": "Try to see later"
+		},
+		"event_details": {
+			"empty_title": "Ei saatavilla olevia tietoja"
+		},
+		"event_status": {
+			"active": "Aktiivinen",
+			"planned": "Suunniteltu"
+		},
+		"event_timer": {
+			"start_title": "Starts in",
+			"end_title": "Ends in"
+		},
+		"min_bet": "Vähimmäispanos\nvaatimus",
+		"event_finished": "Tapahtuma päättyi",
+		"button": {
+			"roll_up": "Kääri ylös",
+			"show_more": "Näytä lisää"
+		}
+	}
+}

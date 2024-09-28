@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "Du deltar i kampanjen! Snurra för att fånga en Drop",
+			"passive_player": "You took part in the promo.",
+			"left": "Återstående priser",
+			"prize_pool": "Prispott",
+			"rules_button": "Hur man spelar",
+			"prizes_button": "Priser"
+		},
+		"join": {
+			"button": "Gå med gratis",
+			"badge": "Gratis",
+			"loading": "Går med",
+			"join_pro_title": "Avgiften är",
+			"join_pro_button": "Betala avgiften och gå med",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Drop-prispott",
+			"column_prizes": "Priser",
+			"column_left": "Kvarvarande/Start"
+		},
+		"user_wins": {
+			"title": "Du vann",
+			"column_date": "Datum",
+			"column_time": "Tid",
+			"column_value": "Värde",
+			"column_game": "Spel"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Datum",
+			"column_time": "Tid",
+			"column_prize": "Pris"
+		},
+		"rules": {
+			"title": "Regler",
+			"spin": "Bara ett snurr för att vinna",
+			"rtp": "Påverkar inte spelets RTP",
+			"bet": "Alla spel kvalificerar sig såvida inte en minsta insats är inställd",
+			"goal": "Ju högre insats desto högre chanser att vinna priset",
+			"details": {
+				"title": "Alla regler för BGaming-kampanjen",
+				"description": "Kampanjen \"{name}\" är tillgänglig för detta spel och pågår från {from} till {to} (\"Kampanjperiod\") eller tills alla priser har delats ut.",
+				"agreement": "Genom att delta i en kampanj (som definieras nedan) accepterar du dessa villkor.",
+				"summary": {
+					"title": "BGaming Drops-kampanj",
+					"total": "Totalt värde av priserna är {value}.",
+					"max": "Huvudpriset är {value}.",
+					"amount": "Antalet priser är {value}.",
+					"delay": "Utbetalning av priser kan fördröjas upp till 72 timmar."
+				},
+				"conditions": {
+					"title": "Hur man deltar i BGaming Drops-kampanjen",
+					"join": "Spelaren måste delta i spelet som är kopplat till kampanjen.",
+					"spin": "Spelaren måste göra minst en snurr.",
+					"bet": "Alla insatser i kvalificerade spel kan resultera i en slumpmässig vinst från prispotten under kampanjperioden.",
+					"player": "Antalet priser som en spelare kan vinna är endast begränsat av deras antal.",
+					"limit": "Antalet priser som en spelare kan vinna är endast begränsat av kampanjens prispott.",
+					"free": "Deltagande i kampanjen medför inga ytterligare kostnader."
+				},
+				"prizes": {
+					"title": "Prislista för BGaming Drops-kampanjen",
+					"amount": "Antal/Värde"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "Du deltar i kampanjen!",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Läs reglerna för Challenge",
+			"sync_message": "Resultaten beräknas",
+			"spin_limit": "Gräns\nför snurr",
+			"limit_message": "Gränsen för snurr har nåtts. Ytterligare snurr kommer inte att räknas",
+			"left": "Snurr kvar"
+		},
+		"join": {
+			"title": "Ange din inbjudningskod för att gå med i Challenge",
+			"button": "Jag är med!",
+			"loading": "Går med",
+			"error": "Ange en giltig kod"
+		},
+		"playerCode": {
+			"title": "Viktigt!",
+			"message": "Varje deltagare tilldelas ett unikt spelar-ID. Håll ditt spelar-ID säkert och visa det för operatören för att verifiera din identitet och deltagande i utmaningen. Utan denna kod kommer du inte att kunna hämta ut ditt pris om du vinner!",
+			"button": "Kopiera kod",
+			"toast": "Koden har kopierats"
+		},
+		"rules": {
+			"title": "Regler",
+			"games": "Spel som deltar i Challenge: {value}",
+			"goal": "Den högsta multiplikatorn vinner",
+			"winner": "Om spelarna har samma högsta multiplikatorer, vinner den som når det först",
+			"id": "Att byta valuta kommer att ändra ditt spel-ID, och din framgång i Challenge kommer att registreras separat för varje spel-ID",
+			"bet_eur": "Minsta insats är {value} EUR",
+			"bet_ext": "Minsta insats är {value} EUR ({ext})",
+			"bet": "Alla insatsnivåer är tillåtna",
+			"spin_denied": "De funktioner du har köpt kommer inte att redovisas i utmaningsresultaten",
+			"spin_feature": "Endast köpta funktioner kommer att räknas i Challenge",
+			"spin": "Alla snurr (inklusive ytterligare köp) räknas i Challenge",
+			"limit_on": "{value} per spelare för att få den högsta multiplikatorn. Du kommer att meddelas när dina snurr är slut",
+			"limit": "Ingen gräns för antalet snurr"
+		},
+		"leaderboard": {
+			"title": "Topplista",
+			"title_full": "Fullständig leaderboard",
+			"title_player": "Mitt resultat",
+			"column_rank": "#",
+			"column_id": "Spelare-ID",
+			"column_result": "Multiplikator",
+			"loading_text": "Laddar data",
+			"button": "Visa hela topplistan",
+			"no_data": "För närvarande deltar inga spelare"
+		},
+		"games": {
+			"title": "Deltagande spel",
+			"more": "Och {value} fler"
+		}
+	},
+	"games": {
+		"title": "Spel",
+		"empty_title": "Inga spel matchar din förfrågan",
+		"empty_subtitle": "Försök att justera filtren och sökförfrågan",
+		"search_placeholder": "Sök spel"
+	},
+	"profile": {
+		"title": "Lojalitet",
+		"level": "Nivå",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Länka ditt Telegram-konto för att tjäna lojalitetspoäng och få belöningar från BGaming i vilket casino du än spelar BGaming-spel. Du måste länka Telegram för varje valuta du spelar med.",
+		"telegram_button_title": "Koppla Telegram",
+		"telegram_linked": "Telegram länkad",
+		"privileges": {
+			"current_title": "Nuvarande belöningar",
+			"next_title": "Nästa belöningar",
+			"next_empty": "Nya belöningar kommer snart att läggas till",
+			"type_title": {
+				"extra_points": "{value} Extra Poäng",
+				"p2p_challenges": "P2P Challenges",
+				"big_wins": "Stora Vinster",
+				"mystery_box": "Mystery Box"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Aktiva och planerade evenemang",
+			"ended_title": "Nyligen avslutade evenemang",
+			"empty": {
+				"title": "Inga aktiva eller planerade evenemang just nu",
+				"sub_title": "Vi meddelar dig när det finns aktivitet här"
+			}
+		},
+		"error": {
+			"list_title": "Can't load events",
+			"details_title": "Can't load event details",
+			"leaderboard_title": "Can't load leaderboard",
+			"sub_title": "Try to see later"
+		},
+		"event_details": {
+			"empty_title": "Detaljer är inte tillgängliga"
+		},
+		"event_status": {
+			"active": "Aktiv",
+			"planned": "Planerad"
+		},
+		"event_timer": {
+			"start_title": "Startar om",
+			"end_title": "Slutar om"
+		},
+		"min_bet": "Minsta insats\nkrävs",
+		"event_finished": "Evenemang avslutat",
+		"button": {
+			"roll_up": "Stäng",
+			"show_more": "Visa mer"
+		}
+	}
+}

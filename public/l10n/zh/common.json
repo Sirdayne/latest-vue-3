@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "您正在参与促销！只需旋转即可捕捉Drop",
+			"passive_player": "You took part in the promo.",
+			"left": "剩余奖品",
+			"prize_pool": "奖池",
+			"rules_button": "怎么玩",
+			"prizes_button": "奖品"
+		},
+		"join": {
+			"button": "免费加入",
+			"badge": "免费",
+			"loading": "加入中",
+			"join_pro_title": "费用是",
+			"join_pro_button": "支付费用并加入",
+			"join_pro_badge": "专业版"
+		},
+		"prize_pool": {
+			"title": "Drop奖池",
+			"column_prizes": "奖品",
+			"column_left": "剩余/开始"
+		},
+		"user_wins": {
+			"title": "您赢了",
+			"column_date": "日期",
+			"column_time": "时间",
+			"column_value": "金额",
+			"column_game": "游戏"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "日期",
+			"column_time": "时间",
+			"column_prize": "奖品"
+		},
+		"rules": {
+			"title": "规则",
+			"spin": "旋转一次即可中奖",
+			"rtp": "不会影响这款游戏的玩家回报率",
+			"bet": "除非设定了投注下限，否则任何本金都可以",
+			"goal": "赌注越高，赢取奖品的机会及越多",
+			"details": {
+				"title": "BGaming促销的所有规则",
+				"description": "“{name}”促销适用于本游戏，活动从{from}开始至{to}结束（“促销截止日期”），或直到所有奖品被抽完。",
+				"agreement": "参与促销（如以下所定义），即表示您同意遵守这些条款和条件。",
+				"summary": {
+					"title": "“BGaming Drops”促销",
+					"total": "奖品总金额为{value}。",
+					"max": "主要奖品为{value}。",
+					"amount": "奖品数量为{value}。",
+					"delay": "奖品支付可能会延迟至72小时。"
+				},
+				"conditions": {
+					"title": "如何参与“BGaming Drops”促销",
+					"join": "玩家需要加入促销相关的游戏。",
+					"spin": "玩家必须至少旋转一次。",
+					"bet": "在促销期间，任何符合条件的游戏中的任何投注都可能获得奖池中的一个随机奖品。",
+					"player": "单个玩家可以赢得的奖品数量仅限于奖品的总数。",
+					"limit": "单个玩家可以赢得的奖品数量仅限于活动奖池中的奖品数量。",
+					"free": "参与促销不会产生任何额外费用。"
+				},
+				"prizes": {
+					"title": "“BGaming Drops”促销奖品表",
+					"amount": "数量/金额"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "您正在享受促销活动！",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "阅读挑战规则",
+			"sync_message": "计算结果",
+			"spin_limit": "旋转\n限制",
+			"limit_message": "达到旋转限制。\n进一步的旋转将不计入",
+			"left": "剩余旋转次数"
+		},
+		"join": {
+			"title": "粘贴您的邀请码以加入挑战",
+			"button": "我加入了！",
+			"loading": "加入中",
+			"error": "粘贴有效的代码"
+		},
+		"playerCode": {
+			"title": "重要！",
+			"message": "每位参与者将分配到一个独一无二的玩家ID。请妥善保管您的玩家ID，并在组织者核实您的身份和参赛资格时出示。如果丢失该ID，获奖后您将无法领取奖品！",
+			"button": "复制代码",
+			"toast": "代码已被复制"
+		},
+		"rules": {
+			"title": "规则",
+			"games": "参与挑战的游戏：{value}",
+			"goal": "最高乘数获胜",
+			"winner": "如果玩家的最高乘数相同，则最先获得的玩家获胜",
+			"id": "更改货币将切换您的玩家ID，并且您的挑战进度将分别记录在每个玩家ID下",
+			"bet_eur": "最低投注为{value}欧元",
+			"bet_ext": "最低投注为{value}欧元 ({ext})",
+			"bet": "允许任何投注级别",
+			"spin_denied": "您所购买的功能将不被计入挑战成绩",
+			"spin_feature": "仅购买的功能将计入挑战结果",
+			"spin": "任何旋转（包括额外购买）均计入挑战",
+			"limit_on": "{value} 每位玩家获得最高乘数。完成旋转后您会收到通知",
+			"limit": "旋转次数无限制"
+		},
+		"leaderboard": {
+			"title": "排行榜",
+			"title_full": "完整排行榜",
+			"title_player": "我的成绩",
+			"column_rank": "#",
+			"column_id": "玩家ID",
+			"column_result": "乘数",
+			"loading_text": "正在加载数据",
+			"button": "查看完整排行榜",
+			"no_data": "目前没有玩家参与"
+		},
+		"games": {
+			"title": "参与的游戏",
+			"more": "还有{value}"
+		}
+	},
+	"games": {
+		"title": "游戏",
+		"empty_title": "没有符合您请求的游戏",
+		"empty_subtitle": "请尝试调整筛选条件和搜索请求",
+		"search_placeholder": "搜索游戏"
+	},
+	"profile": {
+		"title": "忠诚度",
+		"level": "等级",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "将您的 Telegram 账户关联起来，以赚取忠诚度积分，并在您玩 BGaming 游戏的任何赌场中获得 BGaming 的奖励。您需要为每种货币关联 Telegram。",
+		"telegram_button_title": "关联 Telegram",
+		"telegram_linked": "Telegram 已关联",
+		"privileges": {
+			"current_title": "当前奖励",
+			"next_title": "下一个奖励",
+			"next_empty": "即将添加新奖励",
+			"type_title": {
+				"extra_points": "{value} 额外积分",
+				"p2p_challenges": "P2P Challenges",
+				"big_wins": "大奖",
+				"mystery_box": "Mystery Box"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "活动与计划中的事件",
+			"ended_title": "最近结束的事件",
+			"empty": {
+				"title": "目前没有活动和计划中的事件",
+				"sub_title": "一旦有活动，我们会通知您"
+			}
+		},
+		"error": {
+			"list_title": "无法加载事件",
+			"details_title": "无法加载事件细节",
+			"leaderboard_title": "无法加载积分榜",
+			"sub_title": "请稍后再试"
+		},
+		"event_details": {
+			"empty_title": "没有可显示的数据"
+		},
+		"event_status": {
+			"active": "活动",
+			"planned": "计划"
+		},
+		"event_timer": {
+			"start_title": "开始于",
+			"end_title": "结束于"
+		},
+		"min_bet": "最低投注\n要求",
+		"event_finished": "事件结束",
+		"button": {
+			"roll_up": "收起",
+			"show_more": "显示更多"
+		}
+	}
+}

@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "Participi la promoție! Fă un spin pentru a prinde un Drop",
+			"passive_player": "You took part in the promo.",
+			"left": "Premii rămase",
+			"prize_pool": "Fond de premii",
+			"rules_button": "Cum se joacă",
+			"prizes_button": "Premii"
+		},
+		"join": {
+			"button": "Alătură-te gratuit",
+			"badge": "Gratuit",
+			"loading": "Alăturare",
+			"join_pro_title": "Taxa este",
+			"join_pro_button": "Plătește taxa și alătură-te",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Fond de premii Drop",
+			"column_prizes": "Premii",
+			"column_left": "Rămase/Început"
+		},
+		"user_wins": {
+			"title": "Ai câștigat",
+			"column_date": "Data",
+			"column_time": "Ora",
+			"column_value": "Valoare",
+			"column_game": "Joc"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Data",
+			"column_time": "Ora",
+			"column_prize": "Premiu"
+		},
+		"rules": {
+			"title": "Reguli",
+			"spin": "Câștigați cu o singură rotire",
+			"rtp": "Nu afectează valoarea RTP a jocului",
+			"bet": "Se califică toate mizele, cu excepția cazului în care se stabilește o miză minimă",
+			"goal": "Mizele mai mari cresc șansele de câștigare a premiului",
+			"details": {
+				"title": "Toate regulile promoției BGaming",
+				"description": "Promoția \"{name}\" este disponibilă pentru acest joc și se desfășoară din {from} până în {to} (\"Perioada promoției\") sau până când toate premiile sunt acordate.",
+				"agreement": "Participând la o promoție (așa cum este definită mai jos), accepți să respecți acești termeni și condiții.",
+				"summary": {
+					"title": "Promoția \"BGaming Drops\"",
+					"total": "Valoarea totală a premiilor este {value}.",
+					"max": "Premiul principal este {value}.",
+					"amount": "Numărul de premii este {value}.",
+					"delay": "Plata premiilor poate întârzia până la 72 de ore."
+				},
+				"conditions": {
+					"title": "Cum să participi la promoția \"BGaming Drops\"",
+					"join": "Jucătorul trebuie să se alăture jocului asociat promoției.",
+					"spin": "Jucătorul trebuie să facă cel puțin un spin.",
+					"bet": "Orice pariu plasat pe un joc eligibil poate rezulta într-un premiu aleatoriu din fondul de premii în perioada promoției.",
+					"player": "Numărul de premii pe care un jucător le poate câștiga este limitat doar de numărul acestora.",
+					"limit": "Numărul de premii pe care un jucător le poate câștiga este limitat doar de fondul de premii al campaniei.",
+					"free": "Participarea la promoție nu presupune costuri suplimentare."
+				},
+				"prizes": {
+					"title": "Tabelul de premii pentru promoția \"BGaming Drops\"",
+					"amount": "Cantitate/Valoare"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "Participați în ofertă!",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Citește regulile Challenge-ului",
+			"sync_message": "Calcularea rezultatelor",
+			"spin_limit": "Limită\nde spin-uri",
+			"limit_message": "Limită de spin-uri atinsă. Spin-urile suplimentare nu vor fi luate în considerare",
+			"left": "Rotiri rămase"
+		},
+		"join": {
+			"title": "Introdu codul de invitație pentru a te alătura Challenge-ului",
+			"button": "Sunt în!",
+			"loading": "Alăturare",
+			"error": "Introdu un cod valid"
+		},
+		"playerCode": {
+			"title": "Important!",
+			"message": "Fiecărui participant i se atribuie un ID unic de jucător. Vă rugăm să păstrați în siguranță ID-ul de jucător și să îl prezentați organizatorului pentru a vă confirma identitatea și participarea la provocare. Fără acest cod, nu veți putea să revendicați premiul în cazul în care câștigați!",
+			"button": "Copiază codul",
+			"toast": "Codul este copiat"
+		},
+		"rules": {
+			"title": "Reguli",
+			"games": "Jocuri care participă la Challenge: {value}",
+			"goal": "Cel mai mare multiplicator câștigă",
+			"winner": "Dacă jucătorii au aceleași multiplicatoare maxime, câștigă cel care le-a atins primul",
+			"id": "Schimbarea monedei va schimba ID-ul tău de jucător, iar progresul tău în Challenge va fi înregistrat separat pentru fiecare ID de jucător",
+			"bet_eur": "Pariul minim este {value} EUR",
+			"bet_ext": "Pariul minim este {value} EUR ({ext})",
+			"bet": "Orice nivel de pariu este permis",
+			"spin_denied": "Funcțiile cumpărate nu vor fi luate în considerare în rezultatele provocării.",
+			"spin_feature": "Doar funcționalitățile cumpărate vor fi luate în considerare în Challenge",
+			"spin": "Orice spin (inclusiv achizițiile suplimentare) contează în Challenge",
+			"limit_on": "{value} per jucător pentru a obține cel mai mare multiplicator. Vei fi notificat când spin-urile tale vor fi epuizate",
+			"limit": "Nu există limită pentru numărul de spin-uri"
+		},
+		"leaderboard": {
+			"title": "Clasament",
+			"title_full": "Clasament complet",
+			"title_player": "Rezultatul meu",
+			"column_rank": "#",
+			"column_id": "ID jucător",
+			"column_result": "Multiplicator",
+			"loading_text": "Încărcare date",
+			"button": "Vizualizare clasament complet",
+			"no_data": "În prezent nu există jucători care să participe"
+		},
+		"games": {
+			"title": "Jocuri participante",
+			"more": "Și alte {value}"
+		}
+	},
+	"games": {
+		"title": "Jocuri",
+		"empty_title": "Nu există jocuri care să corespundă cererii tale",
+		"empty_subtitle": "Încearcă să ajustezi filtrele și cererea de căutare",
+		"search_placeholder": "Caută jocuri"
+	},
+	"profile": {
+		"title": "Loialitate",
+		"level": "Nivel",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Conectează-ți contul Telegram pentru a câștiga puncte de loialitate și a obține recompense de la BGaming în orice cazinou unde joci jocuri BGaming. Trebuie să conectezi Telegram pentru fiecare monedă cu care joci.",
+		"telegram_button_title": "Conectează Telegram",
+		"telegram_linked": "Telegram conectat",
+		"privileges": {
+			"current_title": "Recompense actuale",
+			"next_title": "Următoarele recompense",
+			"next_empty": "Noi recompense vor fi adăugate în curând",
+			"type_title": {
+				"extra_points": "{value} puncte suplimentare",
+				"p2p_challenges": "Provocări P2P",
+				"big_wins": "Câștiguri mari",
+				"mystery_box": "Cutia misterioasă"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Evenimente active și planificate",
+			"ended_title": "Evenimente recent încheiate",
+			"empty": {
+				"title": "Nu există evenimente active sau planificate în acest moment",
+				"sub_title": "Te vom notifica când va exista activitate aici"
+			}
+		},
+		"error": {
+			"list_title": "Can't load events",
+			"details_title": "Can't load event details",
+			"leaderboard_title": "Can't load leaderboard",
+			"sub_title": "Try to see later"
+		},
+		"event_details": {
+			"empty_title": "Detalii indisponibile"
+		},
+		"event_status": {
+			"active": "Activ",
+			"planned": "Planificat"
+		},
+		"event_timer": {
+			"start_title": "Începe în",
+			"end_title": "Se termină în"
+		},
+		"min_bet": "Pariu minim\nnecesar",
+		"event_finished": "Eveniment încheiat",
+		"button": {
+			"roll_up": "Închide",
+			"show_more": "Arată mai multe"
+		}
+	}
+}

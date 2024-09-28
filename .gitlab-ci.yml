@@ -1,0 +1,142 @@
+default:
+  tags:
+    - bgaming-docker
+
+variables:
+  AWS_DEFAULT_REGION: ${R2_DEFAULT_REGION} 
+  AWS_ACCESS_KEY_ID: ${R2_ACCESS_KEY_ID} 
+  AWS_SECRET_ACCESS_KEY: $R2_SECRET_ACCESS_KEY
+
+stages:
+  - cleanup
+  - build
+  - preview
+  - deploy
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: never
+    - if: '$CI_COMMIT_BRANCH !~ /^l10n_.*$/'
+      when: always
+
+cleanup:
+  stage: cleanup
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  script:
+    - apt-get update && apt-get install -y git && apt-get install -y diffutils
+    - git fetch --all --prune
+    - git branch -r --format='%(refname:short)' | sed 's/^origin\///' > branches
+    - cat branches
+    - aws s3 ls s3://bgaming-lobby-dev --endpoint-url $R2_ROOT_URL | awk '{print $2}' | awk -F '/' '/\// {print $1}' > folders
+    - cat folders
+    - sh gitlab-ci/cleanup.sh
+    ### TODO: clean up tags ?
+  allow_failure: true
+
+build_prod:
+  stage: build
+  image: hub.bgaming-system.com/repository/images/bgaming/node-lts
+  before_script:
+    - git config --global --add safe.directory /builds/bgaming/fe/growth/lobby
+  script:
+    - npm i
+    - npm run build
+    - git fetch --all --prune
+    - git branch -r --format='%(refname:short)' | sed 's/^origin\///' > dist/branches
+    - git tag --sort='v:refname' > dist/tags
+  artifacts:
+    paths:
+      - ./dist
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+      when: always
+    - if: '$CI_COMMIT_TAG'
+      when: always
+
+build_stage:
+  stage: build
+  image: hub.bgaming-system.com/repository/images/bgaming/node-lts
+  before_script:
+    - git config --global --add safe.directory /builds/bgaming/fe/growth/lobby
+  script:
+    - ls
+    - npm i
+    - npm run build-dev
+    - git fetch --all --prune
+    - git branch -r --format='%(refname:short)' | sed 's/^origin\///' > dist/branches
+    - git tag --sort='v:refname' > dist/tags
+  artifacts:
+    paths:
+      - ./dist
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: manual
+    - if: '$CI_COMMIT_BRANCH != "master"'
+      when: always
+
+preview:
+  stage: preview
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  environment:
+    name: staging
+    url: https://lobby-staging.bgaming-network.com
+  script:
+    - apt-get update && apt-get install -y jq
+    - cat dist/branches | jq -R | jq -s > dist/branches.json
+    ### TODO: add ability to select tag for lobby
+    - cat dist/tags | jq -R | jq -s > dist/tags.json
+    - ls -la ./dist
+    - aws s3 --endpoint-url $R2_ROOT_URL sync ./dist s3://bgaming-lobby-dev --exclude '*' --include 'branches.json'
+    ### aws s3 --endpoint-url $R2_ROOT_URL cp ./dist/tags.json s3://bgaming-lobby-dev/tags.json
+    ### aws s3 --endpoint-url $R2_ROOT_URL cp ./dist/brancehs.js s3://bgaming-lobby-dev/brancehs.js
+    - |
+      if [ ! -z "$CI_COMMIT_TAG" ]; then
+        echo "Deploying to $CI_COMMIT_TAG folder because a tag is present"
+        aws s3 --endpoint-url $R2_ROOT_URL sync ./dist s3://bgaming-lobby-dev/tags/$CI_COMMIT_TAG --delete
+      elif [ -n "$CI_COMMIT_BRANCH" ]; then
+        echo "Deploying to $CI_COMMIT_BRANCH folder"
+        aws s3 --endpoint-url $R2_ROOT_URL sync ./dist s3://bgaming-lobby-dev/$CI_COMMIT_BRANCH --delete
+      else
+        echo "Error: neither CI_COMMIT_TAG nor CI_COMMIT_BRANCH variable is set"
+        exit 1
+      fi
+    - |
+      curl --fail --output "/dev/null" --silent --show-error  --request POST \
+        --url https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache \
+        -H "Authorization: Bearer $CF_CACHE_PURGE_TOKEN" \
+        -H 'Content-Type: application/json' \
+        --data '{ "hosts": [ "lobby-staging.bgaming-network.com" ] }'
+  rules:
+    - if: '$CI_COMMIT_TAG'
+      when: manual
+    - when: always
+
+deploy:
+  stage: deploy
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  environment:
+    name: prod
+    url: https://lobby.bgaming-network.com
+  script:
+    - apt-get update && apt-get install -y jq
+    - cat dist/branches | jq -R | jq -s > dist/branches.json
+    - aws s3 --endpoint-url $R2_ROOT_URL sync ./dist s3://bgaming-lobby --delete
+    - |
+      curl --fail --output "/dev/null" --silent --show-error --request POST \
+        --url https://api.cloudflare.com/client/v4/zones/$CF_ZONE_ID/purge_cache \
+        -H "Authorization: Bearer $CF_API_TOKEN" \
+        -H 'Content-Type: application/json' \
+        --data '{
+        "hosts": [
+          "lobby.bgaming-network.com"
+        ]
+      }'
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+      when: manual
+    - if: '$CI_COMMIT_TAG'
+      when: manual
+
+### s3://bgaming-lobby-dev  ->  https://lobby-staging.bgaming-network.com
+### s3://bgaming-lobby      ->  https://lobby.bgaming-network.com

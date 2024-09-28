@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "Promosyon katılımındasınız! Bir Drop yakalamak için çevir",
+			"passive_player": "You took part in the promo.",
+			"left": "Kalan ödüller",
+			"prize_pool": "Ödül havuzu",
+			"rules_button": "Nasıl oynanır",
+			"prizes_button": "Ödüller"
+		},
+		"join": {
+			"button": "Ücretsiz katıl",
+			"badge": "Ücretsiz",
+			"loading": "Katılıyor",
+			"join_pro_title": "Ücret",
+			"join_pro_button": "Ücreti öde ve katıl",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Drop ödül havuzu",
+			"column_prizes": "Ödüller",
+			"column_left": "Kalan/Başlangıç"
+		},
+		"user_wins": {
+			"title": "Kazandınız",
+			"column_date": "Tarih",
+			"column_time": "Saat",
+			"column_value": "Değer",
+			"column_game": "Oyun"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Tarih",
+			"column_time": "Saat",
+			"column_prize": "Ödül"
+		},
+		"rules": {
+			"title": "Kurallar",
+			"spin": "Kazanmak için sadece bir spin",
+			"rtp": "Oyunun oyuncuya dönüş oranını (RTP) etkilemez",
+			"bet": "Minimum oyun miktarı belirlenmediği sürece tüm oyun miktarları geçerlidir",
+			"goal": "Oyun miktarı ne kadar yüksek olursa ödülü kazanma şansı o kadar yüksek olur",
+			"details": {
+				"title": "BGaming promosyonunun tüm kuralları",
+				"description": "\"{name}\" promosyonu bu oyun için mevcuttur ve {from} ile {to} arasında geçerlidir (\"Promosyon Süresi\") veya tüm ödüller verilene kadar.",
+				"agreement": "Bir promosyonda yer alarak (aşağıda tanımlandığı şekilde) bu şartları kabul etmiş olursunuz.",
+				"summary": {
+					"title": "BGaming Drops Promosyonu",
+					"total": "Toplam ödül miktarı {value}.",
+					"max": "Ana ödül {value}.",
+					"amount": "Ödül sayısı {value}.",
+					"delay": "Ödül ödemeleri 72 saate kadar gecikebilir."
+				},
+				"conditions": {
+					"title": "BGaming Drops promosyonuna nasıl katılınır",
+					"join": "Oyuncu, promosyonla ilişkili oyuna katılmalıdır.",
+					"spin": "Oyuncu en az bir çevirme yapmalıdır.",
+					"bet": "Herhangi bir uygun oyunda yapılan bahisler, promosyon dönemi boyunca ödül havuzundan rastgele bir ödül kazandırabilir.",
+					"player": "Bir oyuncunun kazanabileceği ödül sayısı sadece sayılarıyla sınırlıdır.",
+					"limit": "Bir oyuncunun kazanabileceği ödül sayısı sadece kampanyanın ödül havuzuyla sınırlıdır.",
+					"free": "Promosyona katılım ek bir maliyet getirmez."
+				},
+				"prizes": {
+					"title": "BGaming Drops promosyonu ödül tablosu",
+					"amount": "Miktar/Değer"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "Promosyona katılıyorsunuz!",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Challenge kurallarını oku",
+			"sync_message": "Sonuçlar hesaplanıyor",
+			"spin_limit": "Çevirme\nlimiti",
+			"limit_message": "Çevirme limiti doldu. Ek çevirme sayılmaz",
+			"left": "Kalan spin"
+		},
+		"join": {
+			"title": "Challenge'a katılmak için davet kodunuzu girin",
+			"button": "Katılıyorum!",
+			"loading": "Katılınıyor",
+			"error": "Geçerli bir kod girin"
+		},
+		"playerCode": {
+			"title": "Önemli!",
+			"message": "Her katılımcıya benzersiz bir oyuncu kimliği atanmıştır. Lütfen oyuncu kimliğinizi güvende tutup kimliğinizi ve yarışmaya katılımınızı doğrulamak için organizatöre ibraz edin. Kazandığınız takdirde bu kod olmadan ödülünüzü talep edemezsiniz!",
+			"button": "Kodu kopyala",
+			"toast": "Kod kopyalandı"
+		},
+		"rules": {
+			"title": "Kurallar",
+			"games": "Challenge'a katılan oyunlar: {value}",
+			"goal": "En yüksek çarpan kazanır",
+			"winner": "Oyuncular aynı en yüksek çarpana sahipse, bunu ilk elde eden kazanır",
+			"id": "Para birimini değiştirmek oyuncu kimliğinizi değiştirir ve Challenge'daki ilerlemeniz her oyuncu kimliği için ayrı ayrı kaydedilir",
+			"bet_eur": "Minimum bahis {value} EUR'dur",
+			"bet_ext": "Minimum bahis {value} EUR ({ext})",
+			"bet": "Herhangi bir bahis seviyesi kabul edilir",
+			"spin_denied": "Satın aldığınız özellikler yarışma sonuçlarında hesaba katılmayacaktır",
+			"spin_feature": "Sadece satın alınan özellikler Challenge'da sayılır",
+			"spin": "Herhangi bir çevirme (ek alımlar dahil) Challenge'da sayılır",
+			"limit_on": "En yüksek çarpanı elde etmek için oyuncu başına {value}. Çevirme hakkınız bittiğinde bilgilendirileceksiniz",
+			"limit": "Çevirme sayısı için sınır yok"
+		},
+		"leaderboard": {
+			"title": "Liderlik tablosu",
+			"title_full": "Tam Lider Tablosu",
+			"title_player": "Sonucum",
+			"column_rank": "#",
+			"column_id": "Oyuncu kimliği",
+			"column_result": "Çarpan",
+			"loading_text": "Veri yükleniyor",
+			"button": "Liderlik tablosunun tamamını görüntüle",
+			"no_data": "Şu anda katılım gösteren oyuncu yok"
+		},
+		"games": {
+			"title": "Katılan oyunlar",
+			"more": "Ve {value} daha fazla"
+		}
+	},
+	"games": {
+		"title": "Oyunlar",
+		"empty_title": "İsteğinize uygun oyun yok",
+		"empty_subtitle": "Filtreleri ve arama isteğini ayarlamayı deneyin",
+		"search_placeholder": "Oyunları ara"
+	},
+	"profile": {
+		"title": "Sadakat",
+		"level": "Seviye",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Elegram hesabınızı bağlayarak sadakat puanları kazanın ve BGaming oyunlarını oynadığınız her casinoda BGaming’den ödüller kazanın. Oynadığınız her para birimi için Telegram’ı bağlamanız gerekir.",
+		"telegram_button_title": "Telegram'ı bağla",
+		"telegram_linked": "Telegram bağlandı",
+		"privileges": {
+			"current_title": "Mevcut ödüller",
+			"next_title": "Sonraki ödüller",
+			"next_empty": "Yeni ödüller yakında eklenecek",
+			"type_title": {
+				"extra_points": "{value} Ekstra Puan",
+				"p2p_challenges": "P2P Challenges",
+				"big_wins": "Big Wins",
+				"mystery_box": "Mystery Box"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Aktif ve planlanan etkinlikler",
+			"ended_title": "Yeni biten etkinlikler",
+			"empty": {
+				"title": "Şu anda aktif veya planlanmış etkinlik yok",
+				"sub_title": "Burada bir etkinlik olduğunda sizi bilgilendireceğiz"
+			}
+		},
+		"error": {
+			"list_title": "Etkinlikler yüklenemiyor",
+			"details_title": "Etkinlik ayrıntıları yüklenemiyor",
+			"leaderboard_title": "Liderlik tablosu yüklenemiyor",
+			"sub_title": "Daha sonra görmeye çalış"
+		},
+		"event_details": {
+			"empty_title": "Ayrıntılar mevcut değil"
+		},
+		"event_status": {
+			"active": "Aktif",
+			"planned": "Planlanan"
+		},
+		"event_timer": {
+			"start_title": "Başlamasına:",
+			"end_title": "Bitmesine:"
+		},
+		"min_bet": "Minimum bahis\ngerekli",
+		"event_finished": "Etkinlik sona erdi",
+		"button": {
+			"roll_up": "Kapat",
+			"show_more": "Daha fazla göster"
+		}
+	}
+}

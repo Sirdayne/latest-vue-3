@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "You are taking part in the promo! Just spin to catch a Drop",
+			"passive_player": "You took part in the promo.",
+			"left": "Prizes left",
+			"prize_pool": "Prize pool",
+			"rules_button": "How to play",
+			"prizes_button": "Prizes"
+		},
+		"join": {
+			"button": "Join for free",
+			"badge": "Free",
+			"loading": "Joining",
+			"join_pro_title": "Fee is",
+			"join_pro_button": "Submit the fee and join",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Drop prize pool",
+			"column_prizes": "Prizes",
+			"column_left": "Left/Start"
+		},
+		"user_wins": {
+			"title": "You are awarded",
+			"column_date": "Date",
+			"column_time": "Time",
+			"column_value": "Value",
+			"column_game": "Game"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Date",
+			"column_time": "Time",
+			"column_prize": "Prize"
+		},
+		"rules": {
+			"title": "Rules",
+			"spin": "Just one spin to be awarded",
+			"rtp": "Doesn’t affect RTP of the game",
+			"bet": "All play amounts qualify unless a minimum play amount is set",
+			"goal": "The higher the play amount, the higher the chances of awarding the prize",
+			"details": {
+				"title": "All rules of BGaming Promo",
+				"description": "The “{name}” promotion is available for this game and runs from {from} to {to} (“Promotion Deadline”) or until all prizes have been drawn.",
+				"agreement": "By participating in a promotion (as defined below), you hereby agree to abide by these terms and conditions.",
+				"summary": {
+					"title": "Promotion \"BGaming Drops\"",
+					"total": "The total amount of prizes is {value}.",
+					"max": "The main prize is {value}.",
+					"amount": "The number of prizes is {value}.",
+					"delay": "Award distributions may be delayed up to 72 hours."
+				},
+				"conditions": {
+					"title": "How to take part in the \"BGaming Drops\" promotion",
+					"join": "The player needs to join the promotion-related game.",
+					"spin": "The player must make at least one spin.",
+					"bet": "Any play amount placed on any eligible game may result in a maximum of one random prize from the prize pool during the promotion period.",
+					"player": "The number of prizes a player can be awarded is limited only by their total number.",
+					"limit": "The number of prizes a single player can be awarded is limited only by the prize pool of the campaign.",
+					"free": "Participation in the promotion will not carry any additional value requirements."
+				},
+				"prizes": {
+					"title": "Promotion prize table \"BGaming Drops\"",
+					"amount": "Quantity/Amount"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "You are taking part in the promo!",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Read challenge rules",
+			"sync_message": "Calculating results",
+			"spin_limit": "Spin\nlimit",
+			"limit_message": "Spins limit reached.\nFurther spins won't count",
+			"left": "Spins left"
+		},
+		"join": {
+			"title": "Paste your invitation code to join the challenge",
+			"button": "I'm in!",
+			"loading": "I'm in",
+			"error": "Paste a valid code"
+		},
+		"playerCode": {
+			"title": "Important!",
+			"message": "Each participant is assigned a unique player ID. Please keep your player ID safe and present it to the organizer to verify your identity and participation in the challenge. Without this code, you cannot claim your prize if you award it!",
+			"button": "Copy code",
+			"toast": "Code is copied"
+		},
+		"rules": {
+			"title": "Rules",
+			"games": "Games participating the challenge: {value}",
+			"goal": "Highest multiplier wins",
+			"winner": "If players have equal highest multipliers, then the one who gets it first wins",
+			"id": "Changing the coin type will switch your player ID, and your challenge progress will be recorded separately for each player ID",
+			"bet_eur": "Min play amount is: {value}",
+			"bet_ext": "Min play amount is: {value}",
+			"bet": "Any play amount level is allowed",
+			"spin_denied": "The features you have obtained will not be accounted for in the challenge results",
+			"spin_feature": "Only obtained features will be taken into account for the challenge",
+			"spin": "Any spin (incl. extra obtainments) counts in the challenge",
+			"limit_on": "{value} spins per player to get the highest multiplier. You'll be notified when your spins are done",
+			"limit": "No limit for spin count"
+		},
+		"leaderboard": {
+			"title": "Leaderboard",
+			"title_full": "Full leaderboard",
+			"title_player": "My result",
+			"column_rank": "#",
+			"column_id": "Player id",
+			"column_result": "Multiplier",
+			"loading_text": "Loading data",
+			"button": "View full leaderboard",
+			"no_data": "No players participating at the moment"
+		},
+		"games": {
+			"title": "Participating games",
+			"more": "And {value} more"
+		}
+	},
+	"games": {
+		"title": "Games",
+		"empty_title": "Try to adjust filters and search request",
+		"empty_subtitle": "Try to adjust filters and search request",
+		"search_placeholder": "Search games"
+	},
+	"profile": {
+		"title": "Loyalty",
+		"level": "Level",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Link your Telegram account to earn loyalty points and get awards from BGaming in any operator where you play BGaming games. You need to link Telegram for each coin type you play.",
+		"telegram_button_title": "link telegram",
+		"telegram_linked": "Telegram linked",
+		"privileges": {
+			"current_title": "Current awards",
+			"next_title": "Next awards",
+			"next_empty": "New awards will be added soon",
+			"type_title": {
+				"extra_points": "{value} Extra Points",
+				"p2p_challenges": "P2P Challenges",
+				"big_wins": "Big Awards",
+				"mystery_box": "Mystery Box"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Active and planned events",
+			"ended_title": "Recently ended events",
+			"empty": {
+				"title": "There are no active and planned events at the moment",
+				"sub_title": "We'll let you know when there's any activity here"
+			}
+		},
+		"error": {
+			"list_title": "Can’t load events",
+			"details_title": "Can’t load event details",
+			"leaderboard_title": "Can't load leaderboard",
+			"sub_title": "Try to see later"
+		},
+		"event_details": {
+			"empty_title": "Empty details view"
+		},
+		"event_status": {
+			"active": "Active",
+			"planned": "Planned"
+		},
+		"event_timer": {
+			"start_title": "Starts in",
+			"end_title": "Ends in"
+		},
+		"min_bet": "Minimum play amount\nrequirement",
+		"event_finished": "Event ended",
+		"button": {
+			"roll_up": "Roll up",
+			"show_more": "Show more"
+		}
+	}
+}

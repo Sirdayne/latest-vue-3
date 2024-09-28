@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "Vous participez à la promotion ! Faites simplement des spins pour attraper un Drop",
+			"passive_player": "You took part in the promo.",
+			"left": "Prix restants",
+			"prize_pool": "Cagnotte",
+			"rules_button": "Comment jouer",
+			"prizes_button": "Prix"
+		},
+		"join": {
+			"button": "Rejoignez gratuitement",
+			"badge": "Gratuit",
+			"loading": "Rejoindre",
+			"join_pro_title": "Les frais sont",
+			"join_pro_button": "Payez les frais et rejoignez",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Cagnotte Drop",
+			"column_prizes": "Prix",
+			"column_left": "Restant/Début"
+		},
+		"user_wins": {
+			"title": "Vous avez gagné",
+			"column_date": "Date",
+			"column_time": "Heure",
+			"column_value": "Valeur",
+			"column_game": "Jeu"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Date",
+			"column_time": "Heure",
+			"column_prize": "Prix"
+		},
+		"rules": {
+			"title": "Règles",
+			"spin": "Juste un spin pour gagner",
+			"rtp": "N'affecte pas le RTJ du jeu",
+			"bet": "Toutes les mises sont autorisées à moins qu'une mise minimale ne soit fixée",
+			"goal": "Plus la mise est élevée, plus les chances de gagner le prix sont élevées",
+			"details": {
+				"title": "Toutes les règles de la promotion BGaming",
+				"description": "La promotion \"{name}\" est disponible pour ce jeu et se déroule du {from} au {to} (\"Date limite de la promotion\") ou jusqu'à ce que tous les prix aient été attribués.",
+				"agreement": "En participant à une promotion (comme défini ci-dessous), vous acceptez de respecter ces termes et conditions.",
+				"summary": {
+					"title": "Promotion \"BGaming Drops\"",
+					"total": "Le montant total des prix est de {value}.",
+					"max": "Le grand prix est de {value}.",
+					"amount": "Le nombre de prix est de {value}.",
+					"delay": "Le versement des prix peut être retardé jusqu'à 72 heures."
+				},
+				"conditions": {
+					"title": "Comment participer à la promotion \"BGaming Drops\"",
+					"join": "Le joueur doit rejoindre le jeu lié à la promotion.",
+					"spin": "Le joueur doit effectuer au moins un spin.",
+					"bet": "Toute mise placée sur un jeu éligible peut entraîner le gain d'un prix aléatoire de la cagnotte pendant la période de promotion.",
+					"player": "Le nombre de prix qu'un joueur peut gagner est limité uniquement par leur nombre total.",
+					"limit": "Le nombre de prix qu'un joueur peut gagner est limité uniquement par la cagnotte de la campagne.",
+					"free": "La participation à la promotion n'entraînera aucun coût supplémentaire."
+				},
+				"prizes": {
+					"title": "Tableau des prix de la promotion \"BGaming Drops\"",
+					"amount": "Quantité/Montant"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "Vous participez à la promotion !",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Lire les règles du Challenge",
+			"sync_message": "Calcul des résultats en cours",
+			"spin_limit": "Limite\ndes spins",
+			"limit_message": "Limite des spins atteinte.\nLes spins supplémentaires ne seront pas pris en compte",
+			"left": "Tours restants"
+		},
+		"join": {
+			"title": "Collez votre code d'invitation pour rejoindre le Challenge",
+			"button": "Je suis prêt !",
+			"loading": "Connexion",
+			"error": "Collez un code valide"
+		},
+		"playerCode": {
+			"title": "Important !",
+			"message": "Chaque participant se voit attribuer un numéro d'identification unique. Conservez précieusement votre code de joueur et présentez-le à l'organisateur pour vérifier votre identité et votre participation au défi. Sans ce code, vous ne pourrez pas réclamer votre prix si vous gagnez !",
+			"button": "Copier le code",
+			"toast": "Le code est copié"
+		},
+		"rules": {
+			"title": "Règles",
+			"games": "Jeux participant au Challenge : {value}",
+			"goal": "Le multiplicateur le plus élevé gagne",
+			"winner": "Si les joueurs ont des multiplicateurs égaux, celui qui l'obtient en premier gagne",
+			"id": "Changer la devise modifiera votre ID de joueur, et votre progression dans le Challenge sera enregistrée séparément pour chaque ID",
+			"bet_eur": "La mise minimale est de {value} EUR",
+			"bet_ext": "La mise minimale est de {value} EUR ({ext})",
+			"bet": "Tous les niveaux de mise sont autorisés",
+			"spin_denied": "Les fonctionnalités que vous avez achetées ne seront pas comptabilisées dans les résultats du défi",
+			"spin_feature": "Seules les fonctionnalités achetées seront prises en compte pour le Challenge",
+			"spin": "Tout spin (y compris les achats supplémentaires) compte pour le Challenge",
+			"limit_on": "{value} par joueur pour obtenir le multiplicateur le plus élevé. Vous serez averti lorsque vos spins seront terminés",
+			"limit": "Pas de limite pour le nombre de spins"
+		},
+		"leaderboard": {
+			"title": "Tableau de classement",
+			"title_full": "Classement complet",
+			"title_player": "Mon résultat",
+			"column_rank": "#",
+			"column_id": "ID du joueur",
+			"column_result": "Multiplicateur",
+			"loading_text": "Chargement des données",
+			"button": "Voir le classement complet",
+			"no_data": "Aucun joueur participant pour le moment"
+		},
+		"games": {
+			"title": "Jeux participants",
+			"more": "Et {value} de plus"
+		}
+	},
+	"games": {
+		"title": "Jeux",
+		"empty_title": "Aucun jeu ne correspond à votre demande",
+		"empty_subtitle": "Essayez d’ajuster les filtres et la demande de recherche",
+		"search_placeholder": "Rechercher des jeux"
+	},
+	"profile": {
+		"title": "Fidélité",
+		"level": "Niveau",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Liez votre compte Telegram pour gagner des points de fidélité et obtenir des récompenses de BGaming dans n’importe quel casino où vous jouez aux jeux BGaming. Vous devez lier Telegram pour chaque devise que vous utilisez.",
+		"telegram_button_title": "Lier Telegram",
+		"telegram_linked": "Telegram lié",
+		"privileges": {
+			"current_title": "Récompenses actuelles",
+			"next_title": "Prochaines récompenses",
+			"next_empty": "De nouvelles récompenses seront ajoutées bientôt",
+			"type_title": {
+				"extra_points": "{value} Points supplémentaires",
+				"p2p_challenges": "Défis P2P",
+				"big_wins": "Gros gains",
+				"mystery_box": "Boîte Mystère"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Événements actifs et planifiés",
+			"ended_title": "Événements récemment terminés",
+			"empty": {
+				"title": "Il n'y a actuellement aucun événement actif ou planifié",
+				"sub_title": "Nous vous informerons dès qu'il y aura de l'activité ici"
+			}
+		},
+		"error": {
+			"list_title": "Can't load events",
+			"details_title": "Can't load event details",
+			"leaderboard_title": "Can't load leaderboard",
+			"sub_title": "Try to see later"
+		},
+		"event_details": {
+			"empty_title": "Vue des détails vide"
+		},
+		"event_status": {
+			"active": "Actif",
+			"planned": "Planifié"
+		},
+		"event_timer": {
+			"start_title": "Commence dans",
+			"end_title": "Se termine dans"
+		},
+		"min_bet": "Mise minimale",
+		"event_finished": "Événement terminé",
+		"button": {
+			"roll_up": "Réduire",
+			"show_more": "Voir plus"
+		}
+	}
+}

@@ -1,0 +1,185 @@
+{
+	"drop": {
+		"title": "Drops",
+		"general": {
+			"active_player": "Anda sedang berpartisipasi dalam promo! Putar saja untuk menangkap Drop",
+			"passive_player": "You took part in the promo.",
+			"left": "Hadiah tersisa",
+			"prize_pool": "Total hadiah",
+			"rules_button": "Cara bermain",
+			"prizes_button": "Hadiah"
+		},
+		"join": {
+			"button": "Bergabung secara gratis",
+			"badge": "Gratis",
+			"loading": "Bergabung",
+			"join_pro_title": "Biaya adalah",
+			"join_pro_button": "Bayar biaya dan bergabung",
+			"join_pro_badge": "Pro"
+		},
+		"prize_pool": {
+			"title": "Total hadiah Drop",
+			"column_prizes": "Hadiah",
+			"column_left": "Tersisa/Mulai"
+		},
+		"user_wins": {
+			"title": "Anda menang",
+			"column_date": "Tanggal",
+			"column_time": "Waktu",
+			"column_value": "Nilai",
+			"column_game": "Permainan"
+		},
+		"top_wins": {
+			"title": "Lucky hunters for Drops",
+			"column_id": "ID",
+			"column_date": "Tanggal",
+			"column_time": "Waktu",
+			"column_prize": "Hadiah"
+		},
+		"rules": {
+			"title": "Aturan",
+			"spin": "Cukup satu putaran untuk menang",
+			"rtp": "Tidak memengaruhi RTP dari permainan",
+			"bet": "Semua taruhan diterima kecuali telah ditentukan taruhan minimum",
+			"goal": "Semakin tinggi taruhan, semakin tinggi peluang untuk memenangkan hadiah",
+			"details": {
+				"title": "Semua peraturan Promo BGaming",
+				"description": "Promosi \"{name}\" tersedia untuk permainan ini dan berlangsung dari {from} hingga {to} (\"Batas Waktu Promosi\") atau sampai semua hadiah habis.",
+				"agreement": "Dengan berpartisipasi dalam promosi (seperti yang didefinisikan di bawah ini), Anda setuju untuk mematuhi syarat dan ketentuan ini.",
+				"summary": {
+					"title": "Promosi \"BGaming Drops\"",
+					"total": "Jumlah total hadiah adalah {value}.",
+					"max": "Hadiah utama adalah {value}.",
+					"amount": "Jumlah hadiah adalah {value}.",
+					"delay": "Pembayaran hadiah dapat tertunda hingga 72 jam."
+				},
+				"conditions": {
+					"title": "Cara berpartisipasi dalam promosi \"BGaming Drops\"",
+					"join": "Pemain harus bergabung dengan permainan yang terkait dengan promosi.",
+					"spin": "Pemain harus melakukan setidaknya satu putaran.",
+					"bet": "Setiap taruhan yang ditempatkan pada permainan yang memenuhi syarat dapat menghasilkan satu hadiah acak dari total hadiah selama periode promosi.",
+					"player": "Jumlah hadiah yang bisa dimenangkan oleh seorang pemain hanya dibatasi oleh jumlahnya.",
+					"limit": "Jumlah hadiah yang bisa dimenangkan oleh seorang pemain hanya dibatasi oleh total hadiah kampanye.",
+					"free": "Partisipasi dalam promosi tidak akan dikenakan biaya tambahan."
+				},
+				"prizes": {
+					"title": "Tabel hadiah promosi \"BGaming Drops\"",
+					"amount": "Jumlah/Nilai"
+				}
+			}
+		}
+	},
+	"challenge": {
+		"title": "Challenges",
+		"general": {
+			"active_player": "Anda berpartisipasi dalam promo!",
+			"passive_player": "You took part in the promo!",
+			"rules_button": "Baca peraturan Challenge",
+			"sync_message": "Menghitung hasil",
+			"spin_limit": "Batas\nputaran",
+			"limit_message": "Batas putaran tercapai.\nPutaran lebih lanjut tidak akan dihitung",
+			"left": "Putaran tersisa"
+		},
+		"join": {
+			"title": "Masukkan kode undangan Anda untuk bergabung dengan Challenge",
+			"button": "Saya ikut!",
+			"loading": "Bergabung",
+			"error": "Masukkan kode yang valid"
+		},
+		"playerCode": {
+			"title": "Penting!",
+			"message": "Setiap peserta diberikan ID pemain khusus. Harap simpan ID pemain Anda dengan aman dan tunjukkan kepada pengelola untuk memverifikasi identitas dan partisipasi Anda dalam tantangan. Tanpa kode ini, Anda tidak akan bisa mengklaim hadiah Anda jika Anda menang!",
+			"button": "Salin kode",
+			"toast": "Kode disalin"
+		},
+		"rules": {
+			"title": "Aturan",
+			"games": "Permainan yang berpartisipasi dalam Challenge: {value}",
+			"goal": "Multiplikator tertinggi menang",
+			"winner": "Jika pemain memiliki multiplikator tertinggi yang sama, yang pertama mencapainya akan menang",
+			"id": "Mengubah mata uang akan mengubah ID pemain Anda, dan kemajuan Challenge Anda akan dicatat secara terpisah untuk setiap ID pemain",
+			"bet_eur": "Taruhan minimum adalah {value} EUR",
+			"bet_ext": "Taruhan minimum adalah {value} EUR ({ext})",
+			"bet": "Semua tingkat taruhan diperbolehkan",
+			"spin_denied": "Fitur yang telah Anda beli tidak akan dihitung ke dalam hasil tantangan",
+			"spin_feature": "Hanya fitur yang dibeli yang akan dihitung dalam Challenge",
+			"spin": "Setiap putaran (termasuk pembelian tambahan) dihitung dalam Challenge",
+			"limit_on": "{value} per pemain untuk mendapatkan multiplikator tertinggi. Anda akan diberi tahu ketika putaran Anda selesai",
+			"limit": "Tidak ada batasan jumlah putaran"
+		},
+		"leaderboard": {
+			"title": "Papan Peringkat",
+			"title_full": "Papan peringkat lengkap",
+			"title_player": "Hasil saya",
+			"column_rank": "#",
+			"column_id": "ID Pemain",
+			"column_result": "Pengganda",
+			"loading_text": "Memuat data",
+			"button": "Lihat seluruh papan peringkat",
+			"no_data": "Tidak ada pemain yang berpartisipasi saat ini"
+		},
+		"games": {
+			"title": "Permainan yang berpartisipasi",
+			"more": "Dan {value} lainnya"
+		}
+	},
+	"games": {
+		"title": "Permainan",
+		"empty_title": "Tidak ada permainan yang sesuai dengan permintaan Anda",
+		"empty_subtitle": "Cobalah untuk menyesuaikan filter dan permintaan pencarian",
+		"search_placeholder": "Cari permainan"
+	},
+	"profile": {
+		"title": "Loyalitas",
+		"level": "Tingkat",
+		"xp": "xp",
+		"id_title": "BGaming ID",
+		"telegram_message": "Hubungkan akun Telegram Anda untuk mendapatkan poin loyalitas dan menerima hadiah dari BGaming di kasino mana pun Anda bermain game BGaming. Anda perlu menghubungkan Telegram untuk setiap mata uang yang Anda mainkan.",
+		"telegram_button_title": "Hubungkan Telegram",
+		"telegram_linked": "Telegram terhubung",
+		"privileges": {
+			"current_title": "Hadiah Saat Ini",
+			"next_title": "Hadiah Berikutnya",
+			"next_empty": "Hadiah Baru Akan Segera Ditambahkan",
+			"type_title": {
+				"extra_points": "{value} Poin Ekstra",
+				"p2p_challenges": "Tantangan P2P",
+				"big_wins": "Kemenangan Besar",
+				"mystery_box": "Kotak Misteri"
+			}
+		}
+	},
+	"common": {
+		"event_list": {
+			"active_title": "Acara aktif dan direncanakan",
+			"ended_title": "Acara yang baru saja selesai",
+			"empty": {
+				"title": "Tidak ada acara aktif atau yang direncanakan saat ini",
+				"sub_title": "Kami akan memberi tahu Anda ketika ada aktivitas di sini"
+			}
+		},
+		"error": {
+			"list_title": "Can't load events",
+			"details_title": "Can't load event details",
+			"leaderboard_title": "Can't load leaderboard",
+			"sub_title": "Try to see later"
+		},
+		"event_details": {
+			"empty_title": "Detail tidak tersedia"
+		},
+		"event_status": {
+			"active": "Aktif",
+			"planned": "Direncanakan"
+		},
+		"event_timer": {
+			"start_title": "Dimulai dalam",
+			"end_title": "Berakhir dalam"
+		},
+		"min_bet": "Taruhan minimum\ndiperlukan",
+		"event_finished": "Acara selesai",
+		"button": {
+			"roll_up": "Gulung",
+			"show_more": "Tampilkan lebih banyak"
+		}
+	}
+}
